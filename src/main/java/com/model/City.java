@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Entity
 @Table(name="ville_france")
-@Data public class Ville {
+@Data public class City {
 	
 	@Id
 	@Column(name="Code_commune_INSEE")
